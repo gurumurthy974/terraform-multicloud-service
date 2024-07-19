@@ -29,9 +29,5 @@ provider "google" {
   region  = "europe-west1"
 }
 
-provider "azurerm" {
-  use_oidc = true
-  skip_provider_registration = true
-  features {}
-}
+
 
